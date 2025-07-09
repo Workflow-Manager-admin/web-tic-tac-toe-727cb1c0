@@ -1,35 +1,35 @@
 /* Minimal Modern Tic Tac Toe Styling (Light Theme) */
 :root {
-  --primary: #1976d2;
-  --secondary: #ffffff;
-  --accent: #ff4081;
+  --primary: #ff9800;             /* Orange */
+  --secondary: #ffffff;           /* White background */
+  --accent: #ffb300;              /* Deeper orange accent */
   --bg-primary: #ffffff;
-  --bg-secondary: #f4f5f7;
+  --bg-secondary: #fffaf4;        /* Very light orange tint for subtle background */
   --text-primary: #252525;
-  --text-secondary: #757575;
-  --border-color: #e0e4ea;
-  --cell-hover: #eaf2fa;
-  --cell-active: #cbe8ff;
-  --cell-win: #bbf7d0;
+  --text-secondary: #cf7113;      /* Muted/dark orange for subtler secondary text */
+  --border-color: #ffe0b2;        /* Pale orange border */
+  --cell-hover: #fff3e0;          /* Soft orange highlight on cell hover */
+  --cell-active: #ffd180;         /* Orange for cell active */
+  --cell-win: #ffe0b2;            /* Light yellow/orange for win highlight */
   --btn-bg: var(--primary);
   --btn-accent-bg: var(--accent);
   --btn-text: #fff;
 }
 
 [data-theme="dark"] {
-  --primary: #1976d2;
-  --secondary: #22242a;
-  --accent: #ff4081;
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #252627;
+  --primary: #ff9800;             /* Orange for dark theme too */
+  --secondary: #191714;           /* Dark background */
+  --accent: #ffb300;              /* Accent orange */
+  --bg-primary: #191714;          /* Very dark background */
+  --bg-secondary: #29221b;        /* Slightly lighter dark background */
   --text-primary: #fff;
-  --text-secondary: #b3b3b3;
-  --border-color: #303239;
-  --cell-hover: #232634;
-  --cell-active: #173f70;
-  --cell-win: #23462b;
-  --btn-bg: #1976d2;
-  --btn-accent-bg: #ff4081;
+  --text-secondary: #ffcc80;      /* Light orange text for secondary labels */
+  --border-color: #513619;        /* Muted brown/orange border */
+  --cell-hover: #332409;          /* Dark orange/brown for hover state */
+  --cell-active: #ff980033;       /* Faint orange overlay for press */
+  --cell-win: #3f2c09;            /* Deeper highlight for win */
+  --btn-bg: #ff9800;
+  --btn-accent-bg: #ffb300;
   --btn-text: #fff;
 }
 
